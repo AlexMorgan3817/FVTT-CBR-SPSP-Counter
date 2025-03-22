@@ -1,0 +1,30 @@
+{
+  "id": "cyberpunk-red-statskill-points-counters",
+  "title": "Cyberpunk RED Stat/Skill Points Counters",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "module.js"
+  ],
+  "authors": [
+    {
+      "name": "AlexMorgan3817",
+      "url": "https://boosty.to/bright-shards",
+      "discord": "_Elar_",
+      "flags": {}
+    }
+  ]
+}

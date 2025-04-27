@@ -1,0 +1,1 @@
+7z a module.zip @deploy.txt

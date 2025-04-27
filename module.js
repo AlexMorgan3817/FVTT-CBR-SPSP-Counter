@@ -60,7 +60,7 @@ function getTotalStatPoints(actor) {
 	if (actor && actor.system.stats) {
 		Object.keys(actor.system.stats).forEach((stat) => {
 			if (actor.system.stats[stat].value) {
-				if (actor.system.stats[stat].max) total += actor.system.stats[stat].max;
+				if (actor.system.stats[stat]['max']) total += actor.system.stats[stat]['max'];
 				else total += actor.system.stats[stat].value;
 			}
 		});
